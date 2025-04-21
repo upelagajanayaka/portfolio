@@ -1,6 +1,10 @@
-use("client");
-import { use } from "react";
+
+"use client";
 import React from "react";
+import { use } from "react";
+import { useState } from "react";
+import { useEffect } from "react";
+import { useRef } from "react";
 export default function landing() {
     return (
         <div>
